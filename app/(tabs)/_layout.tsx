@@ -76,7 +76,7 @@ const TabIcon: FC<TabIconProps> = ({ title, focused, icon }) => {
   return focused ? (
     <ImageBackground
       source={images.highlight}
-      className="flex flex-row w-full flex-1 min-w-[95px] min-h-16 mt-4 justify-center items-center rounded-full overflow-hidden"
+      className="flex flex-row w-full flex-1 min-w-[100px] min-h-16 mt-4 justify-center items-center rounded-full overflow-hidden"
     >
       <Image source={icon} className="size-5" tintColor="#151312" />
       <Text
